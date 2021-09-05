@@ -984,14 +984,23 @@ footer {
   }
   
   .flip-card-front {
-    background-color: #bbb;
+    background-color: rgb(15, 6, 102);
     color: black;
   }
   
   .flip-card-back {
-    background-color: #2980b9;
-    color: white;
+    background-color: #dfdfdf;
+    color: #000033;
     transform: rotateY(180deg);
+  }
+
+  .flip-card-front h4{
+    color: white;
+  }
+
+  .flip-card-front img{
+    border-top: 2px solid transparent; 
+
   }
   
   
