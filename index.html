@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
+    <title>Sri Gannavarapu</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
@@ -84,7 +84,26 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="June 2019 – Present">
+            <div data-date="Jan 2021 – Present">
+                <h3>McGill University</h3>
+                <h4>Teaching Assistant</h4>
+                <ul class="bullets">
+                    <li>Designed laboratory exercises that teach embedded systems concepts and re-enforced theory taught in class</li>
+                    <li>Authored quizzes that test theory and application of course material </li> 
+                    <li>Generating scripts to automate the assignment of quiz questions and grades</li>
+                    
+                </ul>
+            </div>
+            <div data-date="Sept 2020 – Present">
+                <h3>McGill University</h3>
+                <h4>Research Assistant</h4>
+                <ul class="bullets">
+                    <li> Developing a JavaScript API to interact with and control a grounded force feedback device</li>
+                    <li> Designed and conducted fundamental haptic perception user studies</li>
+                    <li>Co-authoring manuscripts for research papers</li>   
+                </ul>
+            </div>
+            <div data-date="June 2019 – May 2020">
                 <h3>Brock Solutions</h3>
                 <h4> Control Systems Engineer</h4>
                 <ul class="bullets">
@@ -133,6 +152,10 @@
     <div id="education">
         <h2 class="heading">Education</h2>
         <div class="education-block">
+            <h3>McGill University</h3>
+            <span class="education-date">Sept 2020 - Present</span>
+            <h4>B.ESc - Mechatronic Systems Engineering with Distinction</h4>
+
             <h3>Western University</h3>
             <span class="education-date">Sept 2014 - June 2019</span>
             <h4>B.ESc - Mechatronic Systems Engineering with Distinction</h4>
@@ -151,163 +174,148 @@
                 </li>
             </Ul>
         </div>
+    </div>
         <!-- End .education-block -->
-    <!-- End #education -->
+    <!-- End #education -->                    
 
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/brace.png" />
+               
+|
+    <!-- *************Project photo Grid ************ -->
+<div id = "projects"> 
+                <!-- *************1st row ************ -->
+    <div class="row"> 
+        <div class="project">
+            <div class="flip-card">
+                <div class = "flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/vibroraptile.JPG" alt="Avatar" style="width:100%">
+                        <h4><b>Vibroraptile</b></h4>
                     </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Mechatronic Brace</h3>
-                        <p>
-                            Wearable Wireless Brace that uses both EMG and EEG signals to interrupt user intention to aid in the rehabiliation of uppper limb injuries.
-                        </p>
-                        <a href="https://github.com/iYung/OpenBCI_Python.git" target="_blank" >View Project</a>
+                    <div class="flip-card-back">
+                    <h4><b>Vibroraptile</b></h4>
+                    <p>Vibroraptile is a vibrotactile display that maps auditory signals from a nature exhibit to give visitors
+                        the ability to not only see and hear, but also feel otherwise untouchable animals.</p>
+                    <a href="https://github.com/sriGanna/PortfolioWebsite" target="_blank" >View Project</a>
                     </div>
-                    <!-- End .project-info -->
                 </div>
-                <!-- End .project -->
-                
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <video width = "300" height = "240" controls> 
-                        <source src= images/embed.mp4 type ="video/mp4">
-                        </video>
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>PID controller for Ball Levitatation System</h3>
-                        <p>
-                            Created a PID Controller on the Rabbit 2000 board that allows for control of the levitation of a ball. The system operates in two modes. Mode 1 allows for control using potentiometer. Mode 2 is a binary mode that allows the user he make the ball jump to the middle by flicking a switch.
-                        </p>
-                       
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-                
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/medDed.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Medication Dedication</h3>
-                        <p>
-                            Pill tracking system to monitor and track pills in an inuitive way. Customer pressure sensor allows for non-initrusive design.
-                        </p>
-                        <a href="https://devpost.com/software/medication-dedication" target="_blank" >View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/depoRepo.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Depository Repository</h3>
-                        <p>
-                            Crowdsourcing app to rent out unused storage space. The camera security systems ensures the safety of the contents.
-                        </p>
-                        <a href="https://devpost.com/software/depository-repository" target="_blank">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-                
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/TapATM-1.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>TAP ATM</h3>
-                        <p>
-                            TAP ATM is the future of ATM banking: it allows you to access your bank accounts and enter all of your transaction details on a phone app, then withdraw/deposit your money from the ATM by tapping your phone to the machine's receiver. TAP ATM will improve the client experience by reducing wait times and increasing accessibility. Environmental benefits include eliminating paper receipts and reducing idling time in ATM drive thrus by streamlining the transaction process.
-                        </p>
-                        <a href="https://devpost.com/software/tap-atm" target="_blank">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-                
-                 <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/Arcarde.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Aracde Bank</h3>
-                        <p>
-                            The machine will prompt you to set-up a goal you would like to reach and every time you deposit money into your piggy bank you are rewarded by being allowed to play the arcade game. Until you reach your goal, you won't be able to access your savings, which takes away the temptation to splurge.
-                        </p>
-                        <a href="https://devpost.com/software/arcade-bank" target="_blank">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-                
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/growWithFlow.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Grow with the Flow</h3>
-                        <p>
-                            Grow with the flow is a self-watering systems that lets you grow plants and keep them alive! the system is made with a wifi-enabled controller, servo motor, and soil moisture sensor.An accompanying web app allows you the set the desired mositure levels and watch as your plants thrive.
-                        </p>
-                        <a href="https://devpost.com/software/grow-with-the-flow" target="_blank">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-                
-                  <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/altera.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Tail Light Controller</h3>
-                        <p>
-                            Designed a tail light flashing sequence using an Altera Cyclone board. Desinged logic using State diagrams and tables.
-                        </p>
-                        <a href="https://github.com/sriGanna/PortfolioWebsite" target="_blank" >View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-                
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/Scorpion-1.jpeg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>ScorpionBot</h3>
-                        <p>
-                            ScorpionBot is an autonmous 3DOF walking robot tasked with retreiving "tesseracts" (plastic cubes with magnets inside)
-                        </p>
-                        <a href="https://github.com/sriGanna/PortfolioWebsite" target="_blank" >View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-                
             </div>
         </div>
+        <div class="project">
+            <div class="flip-card">
+                <div class = "flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/hapticJournal.jpg" alt="Avatar" style="width:100%">
+                        <h4><b>Haptic Journal</b></h4>
+                    </div>
+                    <div class="flip-card-back">
+                        <h4><b>Haptic Journal</b></h4>
+                        <p>The design and development of unique multimodal interactions that can elicit emotional feedback from users
+                            using a grounded force feedback device (Haply).</p>
+                        <a href="https://github.com/sriGanna/PortfolioWebsite" target="_blank" >View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+             <div class="flip-card">
+                <div class = "flip-card-inner">
+                    <div class="flip-card-front">
+                         <img src="images/brace.png" alt="Avatar" style="width:100%">
+                         <h4><b>Mechatronic Brace for Upper Arm Rehabilitation</b></h4>
+                    </div>
+                    <div class="flip-card-back">
+                        <h4><b>Mechatronic Brace</b></h4>
+                        <p>A wireless, wearable brace for rehabilitating upper limb injuries </p>
+                        <a href="https://github.com/sriGanna/PortfolioWebsite" target="_blank" >View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <div class="flip-card">
+               <div class = "flip-card-inner">
+                   <div class="flip-card-front">
+                        <img src="images/depoRepo.jpg" alt="Avatar" style="width:100%">
+                        <h4><b>Depository Repository</b></h4>
+                   </div>
+                   <div class="flip-card-back">
+                       <h4><b>Depository Repository</b></h4>
+                       <p>Crowdsourcing app to rent out unused storage space. The camera security systems ensures the safety of the contents. </p>
+                       <a href="https://github.com/sriGanna/PortfolioWebsite" target="_blank" >View Project</a>
+                   </div>
+               </div>
+           </div>
+       </div>
     </div>
+             <!-- *************ROW # 2 ************ -->
+    <div class="row"> 
+        <div class="project">
+            <div class="flip-card">
+                <div class = "flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/medDed.jpg" alt="Avatar" style="width:100%">
+                        <h4><b>Medication Dedication</b></h4>
+                    </div>
+                    <div class="flip-card-back">
+                    <h4><b>Medication Dedication</b></h4>
+                    <p>Vibroraptile is a vibrotactile display that maps auditory signals from a nature exhibit to give visitors
+                        the ability to not only see and hear, but also feel otherwise untouchable animals.</p>
+                    <a href="https://github.com/sriGanna/PortfolioWebsite" target="_blank" >View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <div class="flip-card">
+                <div class = "flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/ArcardeBank.jpg" alt="Avatar" style="width:100%">
+                        <h4><b>Arcade Bank</b></h4>
+                    </div>
+                    <div class="flip-card-back">
+                        <h4><b>Arcade Bank</b></h4>
+                        <p>The design and development of unique multimodal interactions that can elicit emotional feedback from users
+                            using a grounded force feedback device (Haply).</p>
+                        <a href="https://github.com/sriGanna/PortfolioWebsite" target="_blank" >View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+             <div class="flip-card">
+                <div class = "flip-card-inner">
+                    <div class="flip-card-front">
+                         <img src="images/growWithFlow.jpg" alt="Avatar" style="width:100%">
+                         <h4><b>Grow with the Flow</b></h4>
+                    </div>
+                    <div class="flip-card-back">
+                        <h4><b>Grow with the Flow</b></h4>
+                        <p>A wireless, wearable brace for rehabilitating upper limb injuries </p>
+                        <a href="https://github.com/sriGanna/PortfolioWebsite" target="_blank" >View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <div class="flip-card">
+               <div class = "flip-card-inner">
+                   <div class="flip-card-front">
+                        <img src="images/TapATM-1.jpg" alt="Avatar" style="width:100%">
+                        <h4><b>TapATM</b></h4>
+                   </div>
+                   <div class="flip-card-back">
+                       <h4><b>TapATM</b></h4>
+                       <p>Crowdsourcing app to rent out unused storage space. The camera security systems ensures the safety of the contents. </p>
+                       <a href="https://github.com/sriGanna/PortfolioWebsite" target="_blank" >View Project</a>
+                   </div>
+               </div>
+           </div>
+       </div>
+    </div>
+</div>
+    
+    
+  
     <!-- End #projects -->
 
     <div id="skills">
@@ -351,6 +359,8 @@
             </div>
         </div>
     </div>
+
+    
     <!-- End #skills -->
 
     <div id="contact">
@@ -409,6 +419,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
+    <script src="js/Modal.js"></script>
 </body>
 
 </html>
