@@ -256,9 +256,10 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/Background.jpg);
+    background: url(../images/brett-jordan-GQCYOS_MH0w-unsplash.jpg);
     background-size: cover;
-    padding: 15px;
+    /* padding: 15px; */
+    
     overflow: hidden
 }
 
@@ -277,7 +278,8 @@ footer {
 }
 
 #lead-content h1 {
-    color: #fff;
+    color: #000033;
+    opacity: 1.0;
     font-weight: 900;
     font-size: 5em;
     text-transform: uppercase;
